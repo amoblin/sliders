@@ -2,9 +2,11 @@ default:
 	cp ~/.marboo/build/slides/*.html ~/Dropbox/Apps/FarBox/slide
 	cp ~/.marboo/build/slides/marboo-intro.remark.md.html ~/Dropbox/Apps/FarBox/slide/index.html
 	cp ~/.marboo/build/slides/marboo-intro.remark.md.html ~/Dropbox/Apps/FarBox/slide/marboo-intro/index.html
+	cp ~/.marboo/build/slides/marboo-intro.remark.md.html ~/.marboo/source/WebSites/marboo.biz/slides/
 
 init:
 	mkdir -p ~/Dropbox/Apps/Farbox/slide/media
 	cp -r ~/.marboo/source/media/lib ~/Dropbox/Apps/FarBox/slide/media
 	cp -r ~/.marboo/source/media/js ~/Dropbox/Apps/FarBox/slide/media
 	cp -r ~/.marboo/source/media/css ~/Dropbox/Apps/FarBox/slide/media
+	cp -r ~/.marboo/source/media/images/marboo ~/Dropbox/Apps/FarBox/slide/media

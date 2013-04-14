@@ -57,9 +57,13 @@ http://marboo.biz/gallery/
 
 - 支持Markdown/reStructuredText/Text等文本格式
 
+- 支持Theme
+
+- 支持模板(初始化文件模板，输出模板)
+
 - Make/Rake自动化
 
-- 支持Theme
+- 支持扩展
 
 - 以文件夹形式组织
 
@@ -79,7 +83,7 @@ http://marboo.biz/gallery/
 ---
 template: inverse
 
-## Use Marboo
+## Marboo Usage
 
 ---
 name: how
@@ -106,8 +110,10 @@ name: how
  键入 <span class="kbd">delete</span> 或者 点击窗口上方标题栏中的图标 <img alt="delete" src="/media/images/marboo/marboo-icon-delete.png" style="width: 25px; height: 25px;" /> 或者右键调出菜单选择&quot;删除&quot;
 
 
- - vimeo上的视频演示： https://vimeo.com/58428246
- - youku上的视频演示： http://v.youku.com/v_show/id_XNTA4MzgyMzQ4.html
+ - [vimeo上的视频演示](https://vimeo.com/58428246)
+
+ - [youku上的视频演示](http://v.youku.com/v_show/id_XNTA4MzgyMzQ4.html)
+
 <!--
 <img src="/media/images/marboo/marboo-rss.png" width="800px"/>
 
@@ -151,69 +157,165 @@ ascii.io上的演示： http://ascii.io/a/2245
 ---
 template: inverse
 
-## Of course, Markdown can only go so far.
+## Marboo Gallery
 
 ---
 .left-column[
-  ## Marboo with Editor
+  ## Markdown/Vim
 ]
 
 .right-column[
 
-<img src="/media/images/marboo/marboo-theme-poem.png" width="800px"/>
+<img src="/media/images/marboo/0.6/marboo-main.png" width="645px"/>
 
 ]
 
 ---
 .left-column[
-  ## Markdown extensions
-  ### - Slide properties
+  ## Markdown/Vim
+  ## Theme
 ]
+
 .right-column[
+
+<img src="/media/images/marboo/0.6/marboo-theme-colorful.png" width="645px"/>
+
 ]
 
 ---
 .left-column[
-  ## Markdown extensions
-  ### - Slide properties
-  ### - Content classes
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
 ]
+
 .right-column[
+
+<img src="/media/images/marboo/0.6/marboo-poem.png" width="645px"/>
+
 ]
 
 ---
 .left-column[
-  ## Markdown extensions
-  ### - Slide properties
-  ### - Content classes
-  ### - Syntax Highlighting
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
+  ## Reading Books
 ]
+
 .right-column[
 
+<img src="/media/images/marboo/0.6/marboo-progit.png" width="645px"/>
+
 ]
-
----
-template: inverse
-
-## It's time to get started!
 
 ---
 .left-column[
-  ## Getting started
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
+  ## Reading Books
+  ## Web Design
 ]
+
 .right-column[
+
+<img src="/media/images/marboo/0.6/marboo-web-design.png" width="645px"/>
+
 ]
 
 ---
-name: last-page
-template: inverse
+.left-column[
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
+  ## Reading Books
+  ## Web Design
+  ## Code Snippet
+]
 
-## That's all folks (for now)!
+.right-column[
 
-Slideshow created using [remark](http://github.com/gnab/remark).
-name: inverse
-layout: true
-class: center, middle, inverse
+<img src="/media/images/marboo/0.6/marboo-code-snippet.png" width="645px"/>
+
+]
+
+---
+.left-column[
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
+  ## Reading Books
+  ## Web Design
+  ## Code Snippet
+  ## Make Slide
+]
+
+.right-column[
+
+<img src="/media/images/marboo/0.6/marboo-slide.png" width="645px"/>
+
+]
+
+---
+.left-column[
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
+  ## Reading Books
+  ## Web Design
+  ## Code Snippet
+  ## Make Slide
+  ## Marboo Shell
+]
+
+.right-column[
+
+<img src="/media/images/marboo/0.6/marboo-shell.png" width="645px"/>
+
+]
+
+---
+.left-column[
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
+  ## Reading Books
+  ## Web Design
+  ## Code Snippet
+  ## Make Slide
+  ## Marboo Shell
+  ## Marboo Extension
+]
+
+.right-column[
+
+<img src="/media/images/marboo/0.6/marboo-extension.png" width="645px"/>
+
+]
+
+---
+.left-column[
+  ## Markdown/Vim
+  ## Theme
+  ## Poem
+  ## Reading Books
+  ## Web Design
+  ## Code Snippet
+  ## Make Slide
+  ## Marboo Shell
+  ## Marboo Extension
+  ## ...
+]
+
+.right-column[
+
+* Visual Markdown Editor
+* Json Editor
+* CSS Editor
+* HTML5 App...
+
+]
 
 ---
 #Marboo笔记
